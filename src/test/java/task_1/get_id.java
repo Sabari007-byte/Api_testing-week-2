@@ -4,7 +4,7 @@ import static org.hamcrest.Matchers.*;
 import org.testng.annotations.Test;
 import static io.restassured.RestAssured.*;
 
-public class Today {
+public class get_id {
 	@Test
 	public void getProjectTest() {
 		
@@ -23,7 +23,7 @@ public class Today {
 				.statusLine(containsString("HTTP"))
 				.contentType("application/json")
 				.header("Pragma", "no-cache")
-				.body("projectName", equalTo("ganesh"))
+				.body("projectName", equalTo("sabari"))
 				.time(lessThan(5000l));
 				
 		}
