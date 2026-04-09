@@ -23,7 +23,7 @@ public class get_id {
 				.statusLine(containsString("HTTP"))
 				.contentType("application/json")
 				.header("Pragma", "no-cache")
-				.body("projectName", equalTo("sabari"))
+				.body("projectName", equalTo("sabari07"))
 				.time(lessThan(5000l));
 				
 		}
