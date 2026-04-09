@@ -21,7 +21,7 @@ public class create_petid {
 
         Response response = RestAssured.given()
                 .contentType(ContentType.JSON)
-                .body("{ \"createdBy\": \"sabari\", \"projectName\": \"API_Automation_Project002\", \"status\": \"Ongoing\", \"teamSize\": 0 }")
+                .body("{ \"createdBy\": \"sabari\", \"projectName\": \"API_Automation_Project003\", \"status\": \"Ongoing\", \"teamSize\": 0 }")
 
         .when()
                 .post("/addProject")
@@ -56,7 +56,7 @@ public class create_petid {
 
         RestAssured.given()
                 .contentType(ContentType.JSON)
-                .body("{ \"createdBy\": \"sabari\", \"projectName\": \"API_Automation_Project002\", \"status\": \"Completed\", \"teamSize\": 6 }")
+                .body("{ \"createdBy\": \"sabari\", \"projectName\": \"API_Automation_Project003\", \"status\": \"Completed\", \"teamSize\": 6 }")
                 .pathParam("PROJECT_ID", ID)
 
         .when()
