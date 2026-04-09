@@ -54,7 +54,7 @@ public class add_project {
 	@Test
 	void uploadImage() {
 		
-		File image = new File("C:\\Users\\sabari\\OneDrive\\Pictures\\blackHole.jpeg");
+		File image = new File("C:\\Users\\sabari_\\OneDrive\\Pictures\\blackHole.jpeg");
 		
 		RestAssured.given()
 		.pathParam("petID", ID)
