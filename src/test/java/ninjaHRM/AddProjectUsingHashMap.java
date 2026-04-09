@@ -9,7 +9,7 @@ public class AddProjectUsingHashMap {
 		
 		HashMap<String, Object> json_body = new HashMap<String, Object>();
 		json_body.put("createdBy", "sabari");
-		json_body.put("projectName", "test321");
+		json_body.put("projectName", "test3210");
 		json_body.put("status", "Completed");
 		json_body.put("teamSize", 0);
 		
