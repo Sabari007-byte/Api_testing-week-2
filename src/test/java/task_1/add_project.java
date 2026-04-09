@@ -7,7 +7,7 @@ import org.testng.annotations.Test;
 import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
 
-public class LotOfFun {
+public class add_project {
 	
 	final String BASE_URL = "https://petstore.swagger.io/v2";
 	final String ID = 9223372036854775807l + "";
@@ -16,7 +16,7 @@ public class LotOfFun {
 //	@Test
 	void postPet(){
 		RestAssured.given()
-			.formParam("name","kamal")
+			.formParam("name","sabari")
 			.pathParam("petID", ID)
 			
 			.when()
@@ -34,7 +34,7 @@ public class LotOfFun {
 					+ "    \"id\": 0,\r\n"
 					+ "    \"name\": \"string\"\r\n"
 					+ "  },\r\n"
-					+ "  \"name\": \"kamala\",\r\n"
+					+ "  \"name\": \"sabari\",\r\n"
 					+ "  \"photoUrls\": [\r\n"
 					+ "    \"string\"\r\n"
 					+ "  ],\r\n"
@@ -54,7 +54,7 @@ public class LotOfFun {
 	@Test
 	void uploadImage() {
 		
-		File image = new File("C:\\Users\\HARWIN S\\OneDrive\\Pictures\\blackHole.jpeg");
+		File image = new File("C:\\Users\\sabari\\OneDrive\\Pictures\\blackHole.jpeg");
 		
 		RestAssured.given()
 		.pathParam("petID", ID)
