@@ -10,7 +10,7 @@ public class create_pet {
 	public static void lol(){
 		
 		
-		//File json = new File("C:\\Users\\sabari\\eclipse-workspace\\create\\src\\test\\resources\\testing.json");
+		//File json = new File("C:\\Users\\sabari_\\eclipse-workspace\\create\\src\\test\\resources\\testing.json");
 		RestAssured.given()
 		.header("Content-Type","application/json")
 		.body(new object())
